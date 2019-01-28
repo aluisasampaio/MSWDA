@@ -60,7 +60,6 @@ article {
   padding-bottom: 60px;
 }
 
-
 article h2 {
   color: #00345a;
 }
@@ -87,6 +86,10 @@ article footer time {
   float: left;
 }
 
+article a {
+  text-decoration: inherit;
+  color: inherit;
+}
 
 details>summary::-webkit-details-marker {
   display: none;
