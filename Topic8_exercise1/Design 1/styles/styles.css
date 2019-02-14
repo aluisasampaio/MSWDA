@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+}
+
+main {
+  margin: 0 100px;
+}
+
+h3 {
+  margin: 0;
+  padding: 5px;
+  font-weight: normal;
+}
+.flexrow {
+  display: flex;
+  flex-flow: row wrap;
+}
+.flexcolumn {
+  display: flex;
+  flex-flow: column wrap;
+}
+/* Nav takes 1x Row space */
+main > nav {
+  background-color:#d7e9d5;
+  flex: 1;
+}
+
+/* set div height and div takes 5x row space */
+main > div{
+  height: 900px;
+  flex: 5;
+}
+
+/* header takes 1x column space */
+main > div header {
+  background-color: #99cf1c;
+  flex: 1;
+}
+
+/* footer takes 1x column space */
+main > div footer {
+  background-color: #99cf1c;
+  flex: 1;
+}
+
+/* article content takes 5x column space */
+main > div section article h3 {
+  flex:5;
+}
+
+/* section takes 5x column space */
+main > div section {
+  flex: 5;
+}
+/*article takes 5x row space */
+main > div section article{
+  flex: 5;
+}
+/* aside takes 1x row space */
+main > div section aside {
+  background-color:#f5f5dc;
+  flex: 1;
+}
