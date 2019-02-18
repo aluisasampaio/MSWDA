@@ -1,0 +1,27 @@
+/* removing margin */
+body{
+  margin:0;
+}
+
+/* flex container for positioning of circle inside */
+#roundedsquare {
+  top:0px;
+  left: 0px;
+  display: flex;
+  flex-flow: row wrap;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+  border-radius: 10px 10px;
+  justify-content: center;
+}
+
+/* create circle with border-radius and align center */
+#redcircle {
+  width: 20px;
+  height:20px;
+  background-color: red;
+  border-radius: 20px 20px;
+  align-self: center;
+}

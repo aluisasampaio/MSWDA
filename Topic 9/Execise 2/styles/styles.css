@@ -1,0 +1,20 @@
+/* Removing margin and declaring height = viewport height */
+
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+/* flex container with 100% height */
+.container{
+  height: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+
+}
+
+/* aligning element in the center of the page */
+.container h1 {
+  align-self: center;
+}
